@@ -1,0 +1,51 @@
+/* Example stylesheet for markdown-to-html. */
+:root {
+    color-scheme: dark;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #111827;
+    color: #e5e7eb;
+}
+
+.markdown-body {
+    box-sizing: border-box;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 48px 28px;
+    line-height: 1.7;
+}
+
+h1, h2, h3 {
+    line-height: 1.25;
+}
+
+a {
+    color: #60a5fa;
+}
+
+code {
+    padding: 0.15em 0.35em;
+    border-radius: 4px;
+    background: #1f2937;
+}
+
+pre {
+    overflow-x: auto;
+    padding: 18px;
+    border-radius: 8px;
+    background: #0b1220;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px 12px;
+    border: 1px solid #374151;
+    text-align: left;
+}
